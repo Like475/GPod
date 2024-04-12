@@ -6,7 +6,7 @@ local decoder = dfpwm.make_decoder()
 local uri = nil
 local volume = settings.get("gpod.volume")
 local selectedSong = nil
-if args[1] == nil or tonumber(args[1]) == nil then
+if args[1] == nil then
 	print("Invalid syntax!")
 	error("Correct syntax: play <song name>")
 else

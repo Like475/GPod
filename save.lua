@@ -10,5 +10,5 @@ if arg[2] ~= nil then
 	file.close()
 else
 	print("Invalid syntax!")
-	print("Correct syntax: savetodevice <song name> <song url>")
+	print("Correct syntax: save <song name> <song url>")
 end
