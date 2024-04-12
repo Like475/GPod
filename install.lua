@@ -1,5 +1,5 @@
 local baseUri = "https://raw.githubusercontent.com/Like475/GPod/main/"
-local files = { "help", "play", "save", "savetodevice", "startup", "menu", "setvolume" }
+local files = { "help", "play", "save", "startup", "setvolume" }
 
 term.clear()
 
